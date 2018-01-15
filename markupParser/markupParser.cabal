@@ -19,19 +19,19 @@ library
   -- other-modules:       
   build-depends:         base
                        , parsec >=3.1
-                       , mtl >=2.1
+                       , mtl
                        , json >=0.7
                        , MissingH >=1.2
                        , transformers >=0.3
-                       , indents >=0.3 && < 0.4
+                       , indents >=0.3
 
 Executable parseUdoc
   Main-is:           parseUdoc.hs
   Build-Depends:       base
                      , parsec >=3.1
-                     , mtl >=2.1
+                     , mtl
                      , json >=0.7
                      , MissingH >=1.2
                      , transformers >=0.3
-                     , indents >=0.3 && < 0.4
+                     , indents >=0.3
                      , markupParser
